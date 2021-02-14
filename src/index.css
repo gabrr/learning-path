@@ -1,3 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+:root {
+  --background: #fff;
+  --text-on-light: #444;
+  --text-on-dark: rgba(255, 255, 255, 0.9);
+  --offset-color: #999;
+  --primary-color: #EB5580;
+  --forecast-background: #ffffff5e;
+
+  --orange: #F68807;
+  --red: #F34C4C;
+  --blue: #054DB9;
+  --green: #54B905;
+
+  --negative: #DF1B1B;
+  --negative-background: rgba(181, 25, 25, .2);
+  
+  --hoverable-background: #F3F3F3;
+  --hoverable-icon: #444444;
+  --hovered-background: rgba(0, 0, 0, 0.08);
+  --hovered-icon: #444444;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
